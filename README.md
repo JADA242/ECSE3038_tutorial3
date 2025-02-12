@@ -9,7 +9,7 @@ GET /api/fruits: Retrieves a list of all available fruits in the inventory.\
 GET /api/fruits/{id}: Retrieves detailed information about a specific fruit by its ID.\
 POST /api/fruits: Adds a new fruit to the inventory. The creation_date is automatically set.\
 PATCH /api/fruits/{id}: Updates the availability, price, or quantity of a specific fruit.\
-DELETE /api/fruits/{id}: Marks a fruit as unavailable (soft delete).\
+DELETE /api/fruits/{id}: Marks a fruit as unavailable (soft delete).
 
 ## Fruit Model
 
@@ -19,8 +19,8 @@ variety: Variety of the fruit\
 quantity: Quantity in stock\
 supplier: Supplier information
 harvest_date: Date of harvest\
-creation_date: Date of creation (automatically set)
-available: Availability status (true/false)
+creation_date: Date of creation (automatically set)\
+available: Availability status (true/false)\
 price: Price per unit
 
 ## Purpose of Code
